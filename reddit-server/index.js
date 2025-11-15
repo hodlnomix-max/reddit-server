@@ -11,6 +11,7 @@ app.use(bodyParser.json());
 const REDDIT_CLIENT_ID = 'VE8vGJvHmd4Yi7N99p_tPQ';
 const REDDIT_CLIENT_SECRET = 'BbqmJkj6_tAGNrrkwknrhoPDvhnxHg';
 const REDDIT_REDIRECT_URI = 'https://reddit-server-production.up.railway.app/auth/callback';
+const REDDIT_REDIRECT_URI_UP = process.env.REDDIT_REDIRECT_URI_UP || 'https://reddit-server-production.up.railway.app/auth/callback/up-accounts';
 const USER_AGENT = 'MyTestApp/1.0 by YourRedditUsername';
 const PORT = 3000;
 
