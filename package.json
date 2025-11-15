@@ -2,8 +2,9 @@
   "name": "eaunt",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "reddit-server/index.js",
   "scripts": {
+    "start": "node reddit-server/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
